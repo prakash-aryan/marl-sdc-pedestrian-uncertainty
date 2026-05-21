@@ -16,6 +16,12 @@ Autonomous Driving Under Pedestrian Behavioral Uncertainty", accepted and presen
 the 8th Workshop on Long-term Human Motion Prediction at ICRA 2026. Preprint:
 [arXiv:2605.20255](https://arxiv.org/abs/2605.20255).
 
+## Demo
+
+[![Watch the demo on YouTube](assets/architecture.png)](https://youtu.be/ymnNTOxPNVo)
+
+[Watch the demo video on YouTube](https://youtu.be/ymnNTOxPNVo)
+
 ## Repository layout
 
 ```
