@@ -1,0 +1,18 @@
+[project]
+name = "marl-sdc-pedestrian-uncertainty"
+version = "0.1.0"
+description = "Multi-agent reinforcement learning for safe autonomous driving under pedestrian behavioral uncertainty"
+requires-python = ">=3.10"
+dependencies = [
+    "jax>=0.6.2",
+    "flax>=0.10.7",
+    "optax>=0.2.8",
+    "distrax>=0.1.5",
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+cuda = ["jax[cuda12]>=0.6.2"]
+
+[tool.setuptools.packages.find]
+include = ["jax_impl*"]
